@@ -1,3 +1,4 @@
+BadPing 2.0 pour Windows (format executable windows)
 le plus puissant programme de DDoS jamais conçu pour une seule machine attaquante :
 ==> jusqu'a 2Gb/s
 ==> protection d'adresse MAC
