@@ -1,0 +1,1 @@
+msgBox "BadPing 2.0 codé par NAWAK"
